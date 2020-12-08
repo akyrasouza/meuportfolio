@@ -1,0 +1,42 @@
+*{
+    margin: 10;
+    padding: 10;
+  }
+
+div{/* Bloco com Texto e imagem do portfolio*/
+    background-color: rgb(250, 246, 246);
+    width: 300px; 
+    border-style: double;
+    padding: 20px;
+    margin: 10px;
+}
+
+img{/*colocar tamanho da imagem do portfolio */
+    width: 30%;
+    height: 30%; 
+}
+
+ul.habilidades > li{/*colocar itens das Habilidades em ordem na Horizontal */
+    display: inline;
+}
+
+li > img{/*colocar tamanho da imagem dos itens das Habilidades */
+    width: 10%;
+    height: 10%;
+}
+ul >p{/*colocar itens(paragrafos) das Habilidades em ordem na Horizontal */
+    display: inline;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.cursos > li > img{/*colocar tamanho da imagem dos itens dos cursos */
+    width: 18%;
+    height: 18%; 
+}
+
+ ul.experiencias{
+    list-style-type: circle;
+}
+
+
